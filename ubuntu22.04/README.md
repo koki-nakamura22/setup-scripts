@@ -1,6 +1,4 @@
-# setup-scripts
-Scripts for pc setup.
-
+# Ubuntu22.04
 ## Install all libraries and tools
 ```sh
 sh execute-all.sh
