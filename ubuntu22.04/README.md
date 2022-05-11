@@ -61,6 +61,30 @@ nodenv local [version]
 nodenv global 18.1.0
 ```
 
+### Ruby
+Checking any versions we can install
+```sh
+rbenv install --list
+```
+
+Install
+```sh
+rbenv install [version]
+
+# e.g.
+rbenv install 3.1.2
+```
+
+Setting
+```sh
+rbenv global [version]
+rbenv local [version]
+
+# e.g.
+rbenv global 3.1.2
+```
+
+
 ## Other
 ### Setting a ssh config file permission
 ```sh
